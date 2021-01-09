@@ -6,7 +6,7 @@
   "scripts": {
     "format": "prettier --write \"src/**/*.{js,html,jsx}\"",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
-    "start": "parcel src/index.html",
+    "dev": "parcel src/index.html",
     "dev:mock": "cross-env PET_MOCK=mock npm run dev"
   },
   "repository": {
